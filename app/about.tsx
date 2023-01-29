@@ -4,10 +4,10 @@ import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.description}>
-      <h1>Welcome to Next.JS</h1>
+      <h1>About</h1>
     </div>
   )
 }
